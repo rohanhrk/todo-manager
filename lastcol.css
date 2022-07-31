@@ -1,0 +1,90 @@
+.last-container {
+    display: none;
+    border: 1px solid;
+    position: absolute;
+    height: 100%;
+    width: 33rem;
+    left: 73%;
+    background-color: #141414;
+    overflow: auto;
+}
+#editable-task {
+    margin-top: 2rem;
+    background-color: #141414;
+}
+#editcrc {
+    width: 13%;
+}
+#edittask {
+    width: 78.5%;
+}
+.ntask {
+    outline: none;
+}
+.menu-container {
+        /* border: 1px solid red; */
+        height: 2rem;
+        width: 91%;
+        margin-top: 2rem;
+        margin-left: 5%;
+}
+.font-family {
+    height: 100%;
+    width: 70%;
+}
+.font-size {
+    height: 100%;
+    width: 28.6%;
+}
+.option {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 46rem; */
+    align-items: center;
+    position: absolute;
+    top: 85%;
+}
+.save-option {
+    height: 60%;
+    width: 40%;
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save-option:hover {
+    background-color:rgba(128, 0, 128, 0.531);
+}
+.cancel-option {
+    height: 60%;
+    width: 40%;
+    background: rgb(107, 105, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cancel-option:hover {
+    background-color:rgba(107, 105, 105, 0.436);
+    
+} 
+#sc {
+    font-size: x-large;
+    color: white;
+}
+.angle-right {
+    padding-left: 4.5%;
+    position: absolute;
+    width: 100%;
+    top: 94%;
+}
+.angle-right:hover {
+    background-color:#212020f5;
+}
+@media only screen and (max-width:900px) {
+    .last-container {
+        width: 100%;
+        left: 0rem;
+    }
+}

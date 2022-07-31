@@ -1,0 +1,51 @@
+/* theme */
+.theme-option-container {
+   border: 1px solid rgb(86, 82, 82);
+    height: 25rem;
+    width: 24rem;
+    background-color: #212020;
+    border-radius: 9px;
+    margin-right: 56rem;
+    position: absolute;
+    top: 67px;
+    right: -839px;
+    z-index: 1;
+    display: flex;
+    filter: drop-shadow(0px 2px 7px black);
+    display: none;
+}
+.theme-container {
+    height: 20rem;
+    width: 20rem;
+    margin-right: 56rem;
+    position: absolute;
+    top: 46px;
+    right: -864px;
+    z-index: 100;
+}
+
+.theme {
+    font-size: large;
+    color: white;
+    margin-top: 9px;
+    margin-left: 28px;
+}
+.box-row {
+    height:5rem;
+    display: flex;
+}
+.tc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a1909014;
+    height:5rem;
+    width: 5rem;
+}
+.tc:hover {
+    background-color: rgba(169, 169, 169, 0.149);
+}
+.box-col {
+    height:4rem;
+    width: 4rem;
+}

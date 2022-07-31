@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+    <link rel="stylesheet" href="leftcol.css">
+    <link rel="stylesheet" href="midcol.css">
+    <link rel="stylesheet" href="themebox.css">
+    <link rel="stylesheet" href="lastcol.css">
+    <link rel="stylesheet" href="themelist.css">
+</head>
+
+<body>
+
+    <div class="left-container">
+        <div class="p left">
+            <p>To Do Manager</p>
+        </div>
+        <div class="filter-plan-container">
+            <div class="plan bar" style="opacity: 1;"></div>
+            <div class="plann">My Plan</div>
+        </div>
+        <div class="filter-container">
+          
+            <div class="filter-color-container">
+                <div class="baar">0</div>
+                <div class="lightpink filter-color"></div>
+
+            </div>
+            <div class="filter-color-container">
+                <div class="baar">0</div>
+                <div class="lightblue filter-color"></div>
+            </div>
+            <div class="filter-color-container">
+                <div class="baar">0</div>
+                <div class="lightgreen filter-color"></div>
+            </div>
+            <div class="filter-color-container">
+                <div class="baar">0</div>
+                <div class="black filter-color"></div>
+            </div>
+        </div>
+        <div class="margin"></div>
+    </div>
+    <div class="right-container" style="background-image: url('nature-3082832_1920.jpg');">
+        <div class="p right">
+            <p>To Do Manager</p>
+        </div>
+        <div class="left-option">
+            <i class=" left fas fa-angle-double-right"></i>
+        </div>
+        <div class="plan-container">
+            <div class="plan-box">
+                <i class="far fa-calendar-alt"> Planned</i>
+            </div>
+            <div class="right-option">
+                <i class=" fa fas fa-ellipsis-h"></i>
+            </div>
+        </div>
+        <div class="theme-option-container">
+            <div class="theme">Theme</div>
+            <div class="theme-container">
+                <div class="box-row">
+                    <div class="tc">
+                        <div class="box-col #f44336" id="r1"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #e91e63" id="r2"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #9c27b0" id="r3"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #673ab7" id="r4"></div>
+                    </div>
+
+                </div>
+                <div class="box-row">
+                    <div class="tc">
+                        <div class="box-col #3f51b5" id="r5"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #2196f3" id="r6"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #009688" id="r7"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #4caf50" id="r8"></div>
+                    </div>
+
+                </div>
+                <div class="box-row">
+                    <div class="tc">
+                        <div class="box-col #8bc34a" id="r9"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #cddc39" id="r10"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #ffeb3b" id="r11"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #ffc107" id="r12"></div>
+                    </div>
+
+                </div>
+                <div class="box-row">
+                    <div class="tc">
+                        <div class="box-col #ff5722" id="r13"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col white" id="r14"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #9e9e9e" id="r15"></div>
+                    </div>
+                    <div class="tc">
+                        <div class="box-col #607d8b" id="r16"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <!-- task -->
+            <!-- delete box -->
+        </div>
+        <div class="modal-container">
+            <div class="add-task-box">
+                <div class="add">
+                    <i class="plus fas fa-plus"></i>
+                </div>
+                <div class="circle">
+                    <i class="crc far fa-circle"></i>
+                </div>
+                <div class="add-task-input">
+                    <input id="addTask" type="text" placeholder="Add a task">
+                </div>
+            </div>
+            <div class="filter-color-box">
+                <div class="filter-color-circle">
+                    <div class="lightpink color-box border"></div>
+                </div>
+                <div class="filter-color-circle">
+                    <div class="lightblue color-box"></div>
+                </div>
+                <div class="filter-color-circle">
+                    <div class="lightgreen color-box"></div>
+                </div>
+                <div class="filter-color-circle">
+                    <div class="black color-box"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="last-container"></div>
+    <!-- unique id -->
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="task_create.js"></script>
+    <script src="filter.js"></script>
+</body>
+
+</html>

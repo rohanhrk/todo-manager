@@ -1,0 +1,269 @@
+.right-container {
+    min-height: 100vh;
+    width: calc( 100vw - 16rem );
+    background-color: #000000de;
+    padding-top: 1rem;
+}
+.fas {
+    font-size: xx-large;
+    color: white;
+}
+
+.right {
+    display: none;
+}
+
+.left-option {
+    display: none;
+    width: 95%;
+    margin-left: 1.5rem;
+}
+
+.far {
+    font-size: xx-large;
+    color: white;
+
+}
+
+.left:hover {
+    background-color: rgba(169, 169, 169, 0.149);
+}
+.plan-container {
+    display: flex;
+    width: 95%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.plan-box {
+    width: 100rem;
+}
+
+.right-option {
+    min-height: 2rem;
+    min-width: 2rem;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212020a8;
+}
+
+.fa {
+    font-size: medium;
+    color: white;
+}
+
+.right-option:hover {
+   background-color: #212020;;
+
+}
+/* *********************main container************************** */
+.main-container {
+    height: calc( 100vh - (66px + 32px + 6rem));
+    margin-top: 1rem;
+    width: 95%;
+    margin-left: 1.5rem;
+    overflow: auto;
+}
+.task-generate {
+    height: 4rem;
+    margin-top: 3px;
+    border-radius: 11px;
+    background-color: rgb(17 17 17);
+    display: flex;
+}
+.task-generate:hover {
+    background-color: #212020f5;
+}
+.color-circle {
+    height: 100%;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle {
+    position: absolute;
+}
+.green {
+    display: none;
+    background-color: green;
+    border-radius: 17px;
+}
+
+.taskNid {
+    overflow-y: auto;
+    height: 100%;
+    width: 92%;
+    padding-left: 15px;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 34%;
+    font-size: 13px;
+}
+.mytask {
+    height: 66%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
+.deletebtn {
+    height: 100%;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trash-request-container {
+    display: none;
+    border: 1px solid gray;
+    min-height: 14.1rem;
+    min-width: 25rem;
+    position: absolute;
+    top: 38%;
+    left: 43%;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+.delete-task {
+    height: 4rem;
+    padding-top: 25px;
+    padding-left: 1.5rem;
+}
+#dlt {
+    font-size: xx-large;
+    margin: auto;
+}
+.message {
+    height: calc( 14.1rem - 4rem - 4.1rem);
+    padding-top: 7px;
+    padding-left: 1.5rem;
+}
+.mssg {
+    margin: auto;
+    font-size: larger;
+}
+.deleteNcancel {
+    height: 4.1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.delete {
+    height: 2.5rem;
+    width: 10rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancel {
+    height: 2.5rem;
+    width: 10rem;
+    background-color: #595757;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tab {
+    margin: auto;
+    font-size: x-large;
+}
+.modal-container {
+    display: flex;
+    height: 66px;
+    width: 95.5%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 11px;
+    background-color: #0e0d0dd5;
+}
+
+.modal-container:hover {
+    background-color: #212020f5;
+}
+.modal-container:active {
+    background-color: 212020f5;
+}
+.add-task-box {
+    height: 100%;
+    width: 80%;
+}
+.add {
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus {
+    font-size: x-large;
+    color: darkgrey;
+}
+
+.circle {
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.add-task-input {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    font-size: large;
+    color: white;
+    width: 94%;
+    height: 4rem;
+    padding-top: 2px;
+}
+#addTask {
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    border: white;
+    outline: none;
+    background-color: #0e0d0d00;
+    color: white;
+    
+}
+.filter-color-box {
+    height: 100%;
+    width: 20%;
+    display: none;
+}
+.filter-color-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 25%;
+}
+.color-box {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+}
+.border {
+    border: 4px solid rgba(175, 0, 0, 0.755);
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: gray; 
+}
